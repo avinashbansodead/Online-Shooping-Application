@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style1.css">
+<style type="text/css">
+
+
+</style>
+</head>
+<body>
+
+<header>
+	<div class="main">
+		<ul>
+			<li><a href="addproduct.html">add product</a></li>
+			<li><a href="viewproduct.jsp">view product</a></li>
+			<li><a href="deleteproduct.jsp">remove product</a></li>
+			<li><a href="updateProduct.jsp">update product</a></li>
+		</ul>
+	</div>	
+	<div class="form">
+		<form action="addproduct.jsp" method="post">
+		<label>Name</label>
+		<input type="text" name="name"><br>
+		<label>Category</label>
+		<input type="text" name="category"><br>
+		<label>Price</label>
+		<input type="number" name="price"><br>
+		<label>Stock</label>	
+		<input type="number" name="stock"><br>
+		<input type="submit" value="AddProduct">
+		</form>
+	</div>
+	
+
+</header>
+</body>
+</html>

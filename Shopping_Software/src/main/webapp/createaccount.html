@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+form {
+	background-color: rgb(208, 172, 242);
+	border: 3px solid red;
+	border-radius: 20px;
+	width: 30%;
+	margin-bottom: 30px;
+	margin-left: 400px;
+	margin-top: 150px;
+	height: 260px;
+	padding: 50px;
+}
+</style>
+</head>
+<body>
+
+<form action="savedata" method="post">
+Enter Name : <input type="text" name="name"><br>
+Enter Email:<input type="email" name="email"><br>
+Enter Password: <input type="password" name="password"><br>
+Enter Mob NO: <input type="number" name="mobilenumber"><br>
+
+<input type="radio" name="choice" value="create account as merchant">Create account as Merchant <br>
+<input type="radio" name="choice" value="create account as customer">create account as customer <br>
+
+<input type="submit">
+</form>
+</body>
+</html>

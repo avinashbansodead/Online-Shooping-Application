@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="stylelogin.css">
+</head>
+<body bgcolor=black>
+
+	<header>
+		<div class="main">
+			<ul>
+				<li><a href="createaccount.html">Create Account</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="center">
+		<h1>Login</h1>
+		<form action="loginvalidate" method="post">
+			<div class="txt_field">
+				<input type="email" name="email" required="required"> <label>Email</label>
+			</div>
+			<div class="txt_field">
+				<input type="password" name="password" required="required">
+				<label>Password</label>
+			</div>
+			<div>
+				<input type="radio" name="choice" value="Customer"> <label>Customer</label>
+				<input type="radio" name="choice" value="Merchant"> <label>Merchant</label>
+				<input type="radio" name="choice" value="Admin"> <label>Admin</label>
+			</div>
+			<input type="submit" value="Login">
+			
+		</form>
+	</div>
+
+
+</body>
+</html>
